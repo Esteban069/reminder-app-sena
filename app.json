@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Recordatorios SENA",
+    "slug": "reminder-app-sena",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "notification": {
+      "iosDisplayInForeground": true
+    },
+    "android": {
+      "permissions": ["SCHEDULE_EXACT_ALARM", "RECEIVE_BOOT_COMPLETED"]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#2563eb"
+        }
+      ]
+    ]
+  }
+}
